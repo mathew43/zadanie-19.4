@@ -48,7 +48,7 @@ const thumbUp = function(id, likes){
   return{
     type: THUMB_UP_COMMENT,
     id,
-    likes: ++likes
+
   }
 
 }
@@ -61,7 +61,6 @@ const thumbDown = function(id, dislikes){
   return{
     type: THUMB_DOWN_COMMENT,
     id,
-    dislikes: ++dislikes
   }
 }
 
